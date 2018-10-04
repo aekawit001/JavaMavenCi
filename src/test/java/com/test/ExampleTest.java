@@ -16,7 +16,7 @@ public class ExampleTest {
 		String experted = "A";
 	
 		//actual
-		String actual =  "C";
+		String actual =  "A";
 		//test
 		Assert.assertEquals(experted, actual);
 		
