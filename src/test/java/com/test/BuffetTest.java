@@ -1,5 +1,6 @@
 package com.test;
 
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -21,7 +22,8 @@ public class BuffetTest {
 		
 		int expected = 3;
 		buf.setNumber(this.number);
-		int actual = 3;
+		int actual = buf.getNumber();
 		
+		Assert.assertEquals(expected, actual);
 	}
 }
