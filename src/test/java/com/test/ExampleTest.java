@@ -13,10 +13,10 @@ public class ExampleTest {
 		int score =80;
 	
 		// expected
-		String experted ="A";
+		String experted = "A";
 	
 		//actual
-		String actual ="A";
+		String actual = "A";
 		//test
 		Assert.assertEquals(experted, actual);
 		
